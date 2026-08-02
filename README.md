@@ -5,8 +5,8 @@ Signed Windows installers for **RetPlan**, a retirement planner for Windows.
 This repository contains **no source code**. It exists so that Windows App Installer, which
 fetches anonymously, can reach the installer and update manifest over a permanent public URL.
 
-- Product and documentation: <https://retplan.azurewebsites.net>
-- Free web app (no install): <https://retplan.azurewebsites.net/app/>
+- Product and documentation: <https://retplan.net>
+- Free web app (no install): <https://retplan.net/app/>
 
 ## Install
 
@@ -33,9 +33,12 @@ Get-FileHash .\RetPlan.msix -Algorithm SHA256
 
 ## Access is currently limited
 
-RetPlan is in a **private preview**. Anyone can install the app, but signing in requires an
-account that has been provisioned in advance, and the app cannot be used without signing in.
-Installing without a provisioned account will leave you at the sign-in screen.
+RetPlan is in a **private preview**.
+
+The installers here are public so that Windows can fetch and update them, but the product is
+not yet open. Signing in requires an account provisioned in advance, and the app cannot be used
+without signing in — installing without one leaves you at the sign-in screen. The website at
+retplan.net is likewise restricted during the preview and returns a holding page.
 
 ## Upgrading from a build installed before 1 August 2026
 
